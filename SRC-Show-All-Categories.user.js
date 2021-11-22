@@ -26,7 +26,7 @@ function getElementsStartsWithId( id ) {
 
 (function() {
     'use strict';
-    var miscElement = document.body.getElementById("miscellaneous")
+    var miscElement = document.getElementById("miscellaneous")
     miscElement.style.display = "block"
     var catElements = getElementsStartsWithId("category")
     for (var i = 0, length = catElements.length; i < length; i++) {
