@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         SRC-Show-All-Categories
 // @namespace    https://github.com/OceanBagel
-// @version      1.0.0
+// @version      1.0.1
 // @description  Userscript for showing all categories on speedrun.com
 // @author       OceanBagel
 // @match        https://www.speedrun.com/*
