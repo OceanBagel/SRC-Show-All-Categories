@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         SRC-Show-All-Categories
 // @namespace    https://github.com/OceanBagel
-// @version      1.0.4
+// @version      1.0.5
 // @description  Userscript for showing all categories on speedrun.com
 // @author       OceanBagel
 // @match        https://www.speedrun.com/*
@@ -27,7 +27,10 @@ function getElementsStartsWithId( id ) {
 (function() {
     'use strict';
     var miscElement = document.getElementById("miscellaneous")
-    miscElement.style.display = "block"
+    try {
+        miscElement.style.display = "block"
+    }
+    catch(TypeError){}
     var catElements = getElementsStartsWithId("category")
     for (var i = 0, length = catElements.length; i < length; i++) {
         catElements[i].style.display = "block"
