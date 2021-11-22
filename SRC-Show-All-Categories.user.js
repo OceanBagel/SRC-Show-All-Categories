@@ -1,11 +1,14 @@
 // ==UserScript==
 // @name         SRC-Show-All-Categories
-// @namespace    https://github.com/OceanBagel/SRC-Show-All-Categories
-// @version      0.1
+// @namespace    https://github.com/OceanBagel
+// @version      1.0.0
 // @description  Userscript for showing all categories on speedrun.com
 // @author       OceanBagel
 // @match        *.speedrun.com/*
 // @icon         https://drive.google.com/uc?id=1evLQo0tDq48SnI_tLlXEeofU_kQ5Mcbd&export=download
+// @homepageURL  https://github.com/OceanBagel/SRC-Show-All-Categories
+// @downloadURL  https://github.com/OceanBagel/SRC-Show-All-Categories/raw/main/SRC-Show-All-Categories.user.js
+// @updateURL    https://github.com/OceanBagel/SRC-Show-All-Categories/raw/main/SRC-Show-All-Categories.user.js
 
 // ==/UserScript==
 function getElementsStartsWithId( id ) {
