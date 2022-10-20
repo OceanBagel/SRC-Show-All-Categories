@@ -1,3 +1,5 @@
+UPDATE: As of October 19th, 2022, speedrun.com has re-implemented a format that shows all categories at once. So because vanilla speedrun.com now matches the layout implemented by this userscript, this repository is obsolete and will no longer be maintained.
+
 # SRC-Show-All-Categories
 A userscript for Tampermonkey that shows every category in the leaderboard page of speedrun.com at once, similar to the format before the October 14th, 2021 update.
 
